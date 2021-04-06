@@ -3,6 +3,7 @@ title: Contributing
 category: home
 layout: page
 ---
+
 Any additions to AppBuilder documentation is welcome. Here are few guidelines to keep our documentation consistent:
 
 1. Follow the [file structure](#file-structure)
@@ -63,6 +64,21 @@ The YAML front matter is processed by Jekyll and used to display the page on the
 ### Content
 
 Start with heading 2 (`##`) and add one level for each nested heading. Do not skip levels.
+
+### Adding Categories
+
+To add a category simply add a markdown file `myCategory.md` with the following yaml front matter:
+
+```yaml
+title: My category
+description: An optional description of my category
+is-category: myCategory
+layout: index
+category: parentCategory
+icon: fa-icon (optional)
+```
+
+This will create an index page linked from the parent category which list any page that uses the category `myCategory`
 
 ## Tips
 
