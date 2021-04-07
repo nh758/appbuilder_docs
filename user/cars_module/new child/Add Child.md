@@ -12,17 +12,13 @@ This is a fully filled out report document, you can compare to your result to kn
 
 
 ## What records are needed
-|root||||||
 
-|------ |-----------------------|-------------------|-------------------------|--------------|-------------------|
-
-|Child |	Admission information |Prelim Health Exam	|(ongoing) Child documents|(initial) Fact|(ongoing) Life Plan|
-
-|  |(initial) Asset Log|(intake) Growth Log	       	|                       	|              |                   |
-
-|  |(intake) Basic Health Info|(intake) Physical details	|	      |||
-
-|  |> (intake) vaccination 	|		                 	|               |||
+|  Root  |                            |                           |                           |                |                     |
+|--------|----------------------------|---------------------------|---------------------------|----------------|---------------------|
+| Child  | Admission information      | Prelim Health Exam        | (ongoing) Child documents | (initial) Fact | (ongoing) Life Plan |
+|        | (initial) Asset Log        | (intake) Growth Log       |                           |                |                     |
+|        | (intake) Basic Health Info | (intake) Physical details |                           |                |                     |
+|        | (intake) vaccination       |                           |                           |                |                     |
 
 These allow us to download this report
 
